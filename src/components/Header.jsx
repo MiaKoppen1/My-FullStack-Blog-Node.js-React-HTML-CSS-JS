@@ -7,7 +7,7 @@ const Header = () =>
     <section>
         <header>
             <div>
-                <img src={images.blogLogo} alt="" />
+                <img src={images.blogLogo} alt="Logo" />
             </div>
             <div></div>
         </header>

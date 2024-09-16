@@ -1,4 +1,5 @@
 import './App.css';
+import HomePage from './pages/HomePage';
 
 // ~ run in browser ....
 // Local: http://localhost:3000
@@ -7,7 +8,7 @@ function App()
   {
   return (
     <div className="App">
-    <h1 className='text-red-500 text-4xl'>Hello World</h1> 
+      <HomePage />
     </div>
   );
   }
