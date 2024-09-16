@@ -7,15 +7,15 @@ const Header = () =>
     {
     return ( 
     <section>
-        <header className="container mx-auto px-5">
+        <header className="container mx-auto px-5 flex justify-between">
             <div>
                 <img src={images.blogLogo} alt="Logo" height="220" width="220" />
             </div>
-            <div> 
-               <ul>
+            <div className="flex gap-x-9 items-center"> 
+               <ul className="flex gap-x-5">
                 <li>
                     <a href="/">
-                    Blahg Home
+                    BLAHG Home
                     </a>
                 </li>
                 <li>
@@ -25,7 +25,7 @@ const Header = () =>
                 </li>
                 <li>
                     <a href="/">
-                    Your Blahg
+                    Your BLAHG
                     </a>
                 </li>
                </ul> 
