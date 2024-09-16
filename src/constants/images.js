@@ -1,7 +1,8 @@
 import blogLogo from "../assets/blogLogo.png";
 
-const images = {
+const images = 
+    {
     blogLogo,
-}
+    }
 
 export default images;
