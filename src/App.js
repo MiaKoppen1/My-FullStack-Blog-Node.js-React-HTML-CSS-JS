@@ -3,11 +3,12 @@ import './App.css';
 // ~ run in browser ....
 // Local: http://localhost:3000
 
-function App() 
+function App()
   {
   return (
     <div className="App">
-    <h1 className='text-red-500 text-4xl'>Hello World</h1>    </div>
+    <h1 className='text-red-500 text-4xl'>Hello World</h1> 
+    </div>
   );
   }
 
