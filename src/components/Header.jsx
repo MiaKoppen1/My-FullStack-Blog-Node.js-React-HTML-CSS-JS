@@ -29,7 +29,7 @@ const Header = () =>
                     </a>
                 </li>
                </ul> 
-               <button className="border-2 border-blue-950 px-6 py-2 rounded-full text-red-950-font-semibold">
+               <button className="border-2 border-blue-950 px-6 py-2 rounded-full text-red-950">
                 Login
                 </button>
             </div>
