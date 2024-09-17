@@ -1,4 +1,5 @@
 import React from "react";
+import '../assets/button.css';
 import { images } from "../constants";
 
 // the header will contain the logo and the ordered list of pages for the user to choose from !
@@ -29,7 +30,7 @@ const Header = () =>
                     </a>
                 </li>
                </ul> 
-               <button className="border-2 border-blue-950 px-6 py-2 rounded-full text-red-950">
+               <button className="border-2 border-blue-950 px-6 py-2 rounded-full text-red-950 animated-button">
                 Login
                 </button>
             </div>
