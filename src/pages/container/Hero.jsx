@@ -2,7 +2,7 @@
 //Hero section of the homepage aka the media on the very front ...
 
 import React from 'react';
-import { images } from "../constants";
+import { images } from "C:/Users/user/Desktop/Personal Projects/FullStack Blog App/my-blog/src/constants";
 
 const Hero = () =>
      {
@@ -33,7 +33,7 @@ const Hero = () =>
                     Create Account
                 </button>
                     <div>
-                        <img src={images.img1} alt="communication"></img>
+                        <img src={images.img7} alt="communication" width="300" height="300"></img>
                     </div>
             </div></>
         )
