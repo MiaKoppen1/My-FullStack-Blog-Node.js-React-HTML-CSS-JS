@@ -18,8 +18,6 @@ const Header = () =>
                 <button className="border-2 border-black px-4 py-2 rounded-full text-black animated-button">
                     BLAHG Home
                 </button>
-                    <span className="text-black">
-                    </span>
                 </li>
                 <li>
                 <button className="border-2 border-black px-4 py-2 rounded-full text-black animated-button">
@@ -31,10 +29,12 @@ const Header = () =>
                     Your BLAHG
                 </button>
                 </li>
-               </ul> 
+               <li>
                 <button className="border-2 border-black px-4 py-2 rounded-full text-black animated-button">
                     Login
                 </button>
+                </li>
+                </ul>
             </div>
         </header>
     </section>
