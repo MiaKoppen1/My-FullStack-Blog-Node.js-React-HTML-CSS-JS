@@ -7,7 +7,7 @@
   
   .animated-button:hover {
     background-color: #5e61ff; /* Change background color on hover */
-    color: rgb(3, 3, 3); /* Change text color on hover */
+    color: rgb(255, 255, 255); /* Change text color on hover */
     transform: scale(1.05); /* Slightly scale the button */
   }
   
