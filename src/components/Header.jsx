@@ -15,24 +15,28 @@ const Header = () =>
             </div>
             <div className="flex gap-x-9 items-center">
                <ul className="flex gap-x-5 ">
+                
     {/* BUTTON 1: HOME BUTTON */}
                 <li className="bg--500 rounded-full relative">
                 <button className="border-2 border-black px-4 py-2 rounded-full text-black font-bold animated-button">
                     BLAHG Home
                 </button>
                 </li>
+
     {/* BUTTON 2: FAQ BUTTON */}
                 <li>
                 <button className="border-2 border-black px-4 py-2 rounded-full text-black font-bold animated-button">
                     FAQ
                 </button>
                 </li>
+
     {/* BUTTON 3: USER BUTTON */}
                 <li>
                 <button className="border-2 border-black px-4 py-2 rounded-full text-black font-bold animated-button">
                     Your BLAHG
                 </button>
                 </li>
+
     {/* BUTTON 4: LOGIN BUTTON */}
                <li>
                 <button className="border-2 mr-4 border-black px-4 py-2 rounded-full text-black font-bold animated-button">
