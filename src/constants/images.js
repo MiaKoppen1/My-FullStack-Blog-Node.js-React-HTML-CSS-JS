@@ -1,8 +1,8 @@
-import blogLogo from "../assets/blogLogo.png";
+import blahgLogo from "../assets/blahgLogo.png";
 
 const images = 
     {
-    blogLogo,
+    blahgLogo,
     }
 
 export default images;
