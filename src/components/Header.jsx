@@ -11,9 +11,9 @@ const Header = () =>
     <section>
         <header className="container mx-auto px-5 flex justify-between items-center">
             <div className="mt-3">
-                <img className="w-16" src={images.blahgLogo} alt="Logo" height="300" width="300" />
+                <img src={images.blahgLogo} alt="Logo" height="300" width="300" />
             </div>
-            <div className="fixed flex-col justify-center justify:end lg:flex-row -right-full gap-x-9 lg:static items-center">
+            <div className="flex gap-x-9 items-center">
                <ul className="flex gap-x-5 top-0 bottom-0 font-semibold">
                 
     {/* BUTTON 1: HOME BUTTON */}
