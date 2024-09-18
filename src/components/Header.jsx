@@ -13,24 +13,26 @@ const Header = () =>
                 <img src={images.blogLogo} alt="Logo" height="180" width="180" />
             </div>
             <div className="flex gap-x-9 items-center"> 
-               <ul className="flex gap-x-5 font-bold">
-                <li>
-                <button className="border-2 border-blue-950 px-6 py-2 rounded-full text-red-950 animated-button">
+               <ul className="flex gap-x-5 font-semibold">
+                <li className="bg--500 rounded-full relative">
+                <button className="border-2 border-black px-4 py-2 rounded-full text-black animated-button">
                     BLAHG Home
-                    </button>
+                </button>
+                    <span className="text-black">
+                    </span>
                 </li>
                 <li>
-                <button className="border-2 border-blue-950 px-6 py-2 rounded-full text-red-950 animated-button">
+                <button className="border-2 border-black px-4 py-2 rounded-full text-black animated-button">
                     FAQ
                 </button>
                 </li>
                 <li>
-                <button className="border-2 border-blue-950 px-6 py-2 rounded-full text-red-950 animated-button">
+                <button className="border-2 border-black px-4 py-2 rounded-full text-black animated-button">
                     Your BLAHG
                 </button>
                 </li>
                </ul> 
-                <button className="border-2 border-blue-950 px-6 py-2 rounded-full text-red-950 animated-button">
+                <button className="border-2 border-black px-4 py-2 rounded-full text-black animated-button">
                     Login
                 </button>
             </div>
